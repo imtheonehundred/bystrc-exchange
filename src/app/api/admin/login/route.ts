@@ -5,7 +5,7 @@ import { getAdminCredentials } from '@/lib/db';
 export async function POST(request: Request) {
   try {
     const { username, password } = await request.json();
-    const creds = getAdminCredentials();
+    const creds = await getAdminCredentials();
     
     // Check both username and password
     if (username === creds.username && password === creds.password) {

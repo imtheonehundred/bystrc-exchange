@@ -18,7 +18,7 @@ export async function GET() {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
     
-    const rates = getRates();
+    const rates = await getRates();
     console.log('Admin rates fetched:', rates.length, 'items');
     return NextResponse.json(rates);
   } catch (error) {
@@ -34,7 +34,7 @@ export async function POST(request: Request) {
   
   try {
     const body = await request.json();
-    const success = saveRates(body);
+    const success = await saveRates(body);
     
     if (success) {
       return NextResponse.json({ success: true });

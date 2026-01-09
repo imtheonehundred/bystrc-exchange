@@ -28,7 +28,7 @@ export async function POST(request: Request) {
       lastUpdated: new Date().toISOString()
     };
 
-    if (saveAdminCredentials(newCreds)) {
+    if (await saveAdminCredentials(newCreds)) {
       return NextResponse.json({ success: true });
     } else {
       return NextResponse.json({ error: 'Failed to save settings' }, { status: 500 });
