@@ -53,7 +53,9 @@ export default function AdminDashboard() {
 
   const fetchRates = async () => {
     try {
-      const res = await fetch("/api/admin/rates");
+      const res = await fetch("/api/admin/rates", {
+        cache: 'no-store'
+      });
       if (res.ok) {
         const data = await res.json();
         setRates(data);
