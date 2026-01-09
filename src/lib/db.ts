@@ -80,8 +80,8 @@ export async function getRates(): Promise<ExchangeRate[]> {
     try {
       const { data, error } = await supabase
         .from('currencies')
-        .select('*')
-        .order('currency', { ascending: true });
+        .select('*');
+        // .order('currency', { ascending: true }); // Removed alphabetical sort to allow custom ordering
       
       if (data && !error) {
         // If Supabase is empty, seed it from local file
@@ -100,7 +100,21 @@ export async function getRates(): Promise<ExchangeRate[]> {
             console.error('Error seeding Supabase:', seedError);
           }
         }
-        return data as ExchangeRate[];
+
+        // Custom sort order: USD, EUR, GBP first, then others
+        const priority = ['USD', 'EUR', 'GBP'];
+        const sortedRates = (data as ExchangeRate[]).sort((a, b) => {
+          const indexA = priority.indexOf(a.currency);
+          const indexB = priority.indexOf(b.currency);
+          
+          if (indexA !== -1 && indexB !== -1) return indexA - indexB;
+          if (indexA !== -1) return -1;
+          if (indexB !== -1) return 1;
+          
+          return a.currency.localeCompare(b.currency);
+        });
+
+        return sortedRates;
       }
     } catch (e) {
       console.error('Supabase rates fetch error:', e);
