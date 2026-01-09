@@ -14,7 +14,7 @@ export async function POST(request: Request) {
 
   try {
     const { newUsername, newPassword, currentPassword } = await request.json();
-    const creds = getAdminCredentials();
+    const creds = await getAdminCredentials();
 
     // Verify current password before allowing change
     if (creds.password !== currentPassword) {
