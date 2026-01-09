@@ -1,0 +1,68 @@
+import { ExchangeRate, BranchLocation } from "@/types";
+
+export const exchangeRates: ExchangeRate[] = [
+  {
+    currency: "USD",
+    flag: "🇺🇸",
+    name: "US Dollar",
+    buyRate: 1.0,
+    sellRate: 1.02,
+    lastUpdated: new Date().toISOString(),
+  },
+  {
+    currency: "EUR",
+    flag: "🇪🇺",
+    name: "Euro",
+    buyRate: 0.91,
+    sellRate: 0.93,
+    lastUpdated: new Date().toISOString(),
+  },
+  {
+    currency: "GBP",
+    flag: "🇬🇧",
+    name: "British Pound",
+    buyRate: 0.78,
+    sellRate: 0.80,
+    lastUpdated: new Date().toISOString(),
+  },
+  {
+    currency: "JPY",
+    flag: "🇯🇵",
+    name: "Japanese Yen",
+    buyRate: 148.5,
+    sellRate: 151.0,
+    lastUpdated: new Date().toISOString(),
+  },
+  {
+    currency: "AUD",
+    flag: "🇦🇺",
+    name: "Australian Dollar",
+    buyRate: 1.52,
+    sellRate: 1.55,
+    lastUpdated: new Date().toISOString(),
+  },
+  {
+    currency: "CAD",
+    flag: "🇨🇦",
+    name: "Canadian Dollar",
+    buyRate: 1.34,
+    sellRate: 1.37,
+    lastUpdated: new Date().toISOString(),
+  },
+  {
+    currency: "CHF",
+    flag: "🇨🇭",
+    name: "Swiss Franc",
+    buyRate: 0.87,
+    sellRate: 0.89,
+    lastUpdated: new Date().toISOString(),
+  },
+  {
+    currency: "CNY",
+    flag: "🇨🇳",
+    name: "Chinese Yuan",
+    buyRate: 7.15,
+    sellRate: 7.25,
+    lastUpdated: new Date().toISOString(),
+  },
+];

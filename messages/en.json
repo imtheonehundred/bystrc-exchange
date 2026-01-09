@@ -1,0 +1,89 @@
+{
+  "Navigation": {
+    "brand": "Premium",
+    "home": "Home",
+    "branches": "Branches",
+    "information": "Information",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Premium Currency Exchange",
+    "subtitle": "Secure. Fast. Best Rates.",
+    "cta_rates": "View Rates",
+    "cta_branch": "Find Branch"
+  },
+  "Rates": {
+    "title": "Live Exchange Rates",
+    "subtitle": "Best rates – No hidden fees. Real-time rates for major global currencies.",
+    "buy": "We Buy",
+    "sell": "We Sell",
+    "search": "Search currency..."
+  },
+  "Features": {
+    "main_title": "Why Choose Us",
+    "main_subtitle": "Excellence in Every Transaction",
+    "main_desc": "We combine cutting-edge technology with personalized service.",
+    "commission_title": "0% Commission",
+    "commission_desc": "No hidden fees on all transactions",
+    "rates_title": "Best Market Rates",
+    "rates_desc": "Guaranteed competitive exchange rates",
+    "security_title": "Trusted & Secure",
+    "security_desc": "Licensed and regulated financial institution",
+    "service_title": "Fast Service",
+    "service_desc": "Instant processing for all currencies"
+  },
+  "Branches": {
+    "title": "Our Locations",
+    "subtitle": "Find your nearest premium exchange branch",
+    "filter": "Filter by city...",
+    "open": "Open Now",
+    "closed": "Closed",
+    "contact": "Contact",
+    "hours": "Opening Hours",
+    "get_directions": "Get Directions",
+    "mon_fri": "Mon-Fri",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "branch_suffix": "Branch",
+    "interactive_map": "Interactive Map",
+    "map_api_required": "Map integration requires API Key"
+  },
+  "Information": {
+    "title": "Client Information",
+    "subtitle": "Essential information about our services, policies, and your rights.",
+    "faq_title": "Frequently Asked Questions",
+    "legal_title": "Legal & Compliance",
+    "faq_1_title": "How do I become a VIP member?",
+    "faq_1_desc": "We currently offer the best rates to all clients without registration.",
+    "faq_2_title": "What documents do I need?",
+    "faq_2_desc": "Valid ID for transactions under 1,000 EUR. Additional proof for higher amounts.",
+    "faq_3_title": "Are there hidden fees?",
+    "faq_3_desc": "No. We are transparent. 0% commission on all cash exchanges.",
+    "faq_4_title": "Can I reserve currency online?",
+    "faq_4_desc": "Yes, via phone or at branch.",
+    "faq_5_title": "Security policy?",
+    "faq_5_desc": "Bank-grade security protocols.",
+    "term_1_title": "Terms of Service",
+    "term_1_desc": "By using our services you agree to comply with laws.",
+    "term_2_title": "Privacy Policy",
+    "term_2_desc": "We are committed to protecting your data.",
+    "term_3_title": "AML Policy",
+    "term_3_desc": "We strictly adhere to AML and KYC standards."
+  },
+  "Footer": {
+    "company_desc": "Experience the gold standard in currency exchange. Secure, transparent, and tailored for discerning clients.",
+    "quick_links": "Quick Links",
+    "services": "Services",
+    "contact_us": "Contact Us",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service",
+    "currency_exchange": "Currency Exchange",
+    "international_transfers": "International Transfers",
+    "travel_money": "Travel Money",
+    "corporate_services": "Corporate Services",
+    "brand": "Premium",
+    "live_rates": "Live Exchange Rates",
+    "legal_info": "Legal Information",
+    "rights": "All rights reserved."
+  }
+}

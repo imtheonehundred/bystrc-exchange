@@ -1,0 +1,33 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "branches": "Branches",
+    "information": "Information"
+  },
+  "Hero": {
+    "title": "Premium Currency Exchange",
+    "subtitle": "Secure. Fast. Best Rates.",
+    "cta_rates": "View Rates",
+    "cta_branch": "Find Branch"
+  },
+  "Rates": {
+    "title": "Live Exchange Rates",
+    "subtitle": "Best rates – No hidden fees. Real-time rates for major global currencies.",
+    "buy": "We Buy",
+    "sell": "We Sell",
+    "search": "Search currency..."
+  },
+  "Features": {
+    "commission_title": "0% Commission",
+    "commission_desc": "No hidden fees on all transactions",
+    "rates_title": "Best Market Rates",
+    "rates_desc": "Guaranteed competitive exchange rates",
+    "security_title": "Trusted & Secure",
+    "security_desc": "Licensed and regulated financial institution",
+    "service_title": "Fast Service",
+    "service_desc": "Instant processing for all currencies"
+  },
+  "Footer": {
+    "rights": "All rights reserved."
+  }
+}

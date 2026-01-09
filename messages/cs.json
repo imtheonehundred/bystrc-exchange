@@ -1,0 +1,89 @@
+{
+  "Navigation": {
+    "brand": "Premium",
+    "home": "Domů",
+    "branches": "Pobočky",
+    "information": "Informace",
+    "contact": "Kontakt"
+  },
+  "Hero": {
+    "title": "Prémiová směnárna",
+    "subtitle": "Bezpečně. Rychle. Nejlepší kurzy.",
+    "cta_rates": "Zobrazit kurzy",
+    "cta_branch": "Najít pobočku"
+  },
+  "Rates": {
+    "title": "Aktuální kurzy",
+    "subtitle": "Nejlepší kurzy – Žádné skryté poplatky.",
+    "buy": "Nákup",
+    "sell": "Prodej",
+    "search": "Hledat měnu..."
+  },
+  "Features": {
+    "main_title": "Proč si vybrat nás",
+    "main_subtitle": "Spolehlivost v každé transakci",
+    "main_desc": "Kombinujeme špičkovou technologii s osobním přístupem.",
+    "commission_title": "0% provize",
+    "commission_desc": "Žádné skryté poplatky u všech transakcí",
+    "rates_title": "Nejlepší tržní kurzy",
+    "rates_desc": "Garantované konkurenční směnné kurzy",
+    "security_title": "Důvěryhodné a bezpečné",
+    "security_desc": "Licencovaná a regulovaná finanční instituce",
+    "service_title": "Rychlý servis",
+    "service_desc": "Okamžité zpracování všech měn"
+  },
+  "Branches": {
+    "title": "Naše Pobočky",
+    "subtitle": "Najděte svou nejbližší prémiovou pobočku",
+    "filter": "Filtrovat podle města...",
+    "open": "Otevřeno",
+    "closed": "Zavřeno",
+    "contact": "Kontakt",
+    "hours": "Otevírací doba",
+    "get_directions": "Navigovat",
+    "mon_fri": "Po-Pá",
+    "saturday": "Sobota",
+    "sunday": "Neděle",
+    "branch_suffix": "pobočka",
+    "interactive_map": "Interaktivní Mapa",
+    "map_api_required": "Integrace mapy vyžaduje API klíč"
+  },
+  "Information": {
+    "title": "Informace pro Klienty",
+    "subtitle": "Důležité informace o našich službách, zásadách a vašich právech.",
+    "faq_title": "Často Kladené Dotazy",
+    "legal_title": "Právní a Compliance",
+    "faq_1_title": "Jak se mohu stát VIP členem?",
+    "faq_1_desc": "V současné době nabízíme nejlepší kurzy pro všechny klienty bez nutnosti registrace.",
+    "faq_2_title": "Jaké dokumenty potřebuji pro směnu?",
+    "faq_2_desc": "Pro transakce pod 1 000 EUR stačí platný průkaz totožnosti. Nad tuto částku je vyžadován další doklad.",
+    "faq_3_title": "Jsou zde skryté poplatky?",
+    "faq_3_desc": "Ne. Jsme transparentní. 0% provize u všech hotovostních směn.",
+    "faq_4_title": "Mohu si rezervovat měnu online?",
+    "faq_4_desc": "Ano, můžete si rezervovat měnu telefonicky nebo na pobočce.",
+    "faq_5_title": "Jaká je vaše bezpečnostní politika?",
+    "faq_5_desc": "Používáme bankovní bezpečnostní protokoly pro všechny transakce.",
+    "term_1_title": "Obchodní podmínky",
+    "term_1_desc": "Používáním našich služeb souhlasíte s dodržováním všech platných zákonů.",
+    "term_2_title": "Zásady ochrany osobních údajů",
+    "term_2_desc": "Zavazujeme se chránit vaše osobní údaje.",
+    "term_3_title": "AML (Anti-Money Laundering)",
+    "term_3_desc": "Přísně dodržujeme mezinárodní standardy AML a KYC."
+  },
+  "Footer": {
+    "company_desc": "Zažijte zlatý standard ve směně měn. Bezpečné, transparentní a na míru náročným klientům.",
+    "quick_links": "Rychlé odkazy",
+    "services": "Služby",
+    "contact_us": "Kontaktujte nás",
+    "privacy_policy": "Zásady ochrany osobních údajů",
+    "terms_of_service": "Obchodní podmínky",
+    "currency_exchange": "Směna měn",
+    "international_transfers": "Mezinárodní převody",
+    "travel_money": "Cestovní valuty",
+    "corporate_services": "Firemní služby",
+    "live_rates": "Aktuální kurzy",
+    "legal_info": "Právní informace",
+    "rights": "Všechna práva vyhrazena.",
+    "brand": "Premium"
+  }
+}

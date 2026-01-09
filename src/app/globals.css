@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-royal-gray: #6B7280;
+  --color-accent-gray: #4B5563;
+  --color-card-bg: #FFFFFF;
+  --color-muted-text: #6B7280;
+  --color-success: #16A34A;
+  --color-danger: #DC2626;
+  
+  --font-inter: var(--font-inter);
+  --font-playfair: var(--font-playfair);
+  --font-dm-sans: var(--font-dm-sans);
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-shimmer: shimmer 2s infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  @keyframes shimmer {
+    0% { background-position: -1000px 0; }
+    100% { background-position: 1000px 0; }
+  }
+}
+
+:root {
+  --background: #F3F4F6; /* User requested #F3F4F6 for sections */
+  --background-secondary: #F3F4F6;
+  --foreground: #111827; /* User requested #111827 for headings */
+  --card-bg: #FFFFFF; /* User requested #FFFFFF for cards */
+  --divider: #E5E7EB;
+  --muted: #4B5563; /* User requested #4B5563 for body text */
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+}

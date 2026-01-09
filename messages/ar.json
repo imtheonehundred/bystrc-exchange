@@ -1,0 +1,33 @@
+{
+  "Navigation": {
+    "home": "الرئيسية",
+    "branches": "الفروع",
+    "information": "معلومات"
+  },
+  "Hero": {
+    "title": "صرافة العملات المميزة",
+    "subtitle": "آمن. سريع. أفضل الأسعار.",
+    "cta_rates": "عرض الأسعار",
+    "cta_branch": "البحث عن فرع"
+  },
+  "Rates": {
+    "title": "أسعار الصرف الحية",
+    "subtitle": "أفضل الأسعار - لا رسوم خفية.",
+    "buy": "نشتري",
+    "sell": "نبيع",
+    "search": "بحث عن عملة..."
+  },
+  "Features": {
+    "commission_title": "0% عمولة",
+    "commission_desc": "لا رسوم خفية على جميع المعاملات",
+    "rates_title": "أفضل أسعار السوق",
+    "rates_desc": "أسعار صرف تنافسية مضمونة",
+    "security_title": "موثوق وآمن",
+    "security_desc": "مؤسسة مالية مرخصة ومنظمة",
+    "service_title": "خدمة سريعة",
+    "service_desc": "معالجة فورية لجميع العملات"
+  },
+  "Footer": {
+    "rights": "جميع الحقوق محفوظة."
+  }
+}

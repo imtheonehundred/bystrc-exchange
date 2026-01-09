@@ -1,0 +1,155 @@
+[
+  {
+    "currency": "USD",
+    "flag": "🇺🇸",
+    "name": "US Dollar",
+    "buyRate": 21.2,
+    "sellRate": 11,
+    "lastUpdated": "2024-01-09T00:00:00.000Z",
+    "isDisabled": false
+  },
+  {
+    "currency": "EUR",
+    "flag": "🇪🇺",
+    "name": "Euro",
+    "buyRate": 0.91,
+    "sellRate": 0.93,
+    "lastUpdated": "2024-01-09T00:00:00.000Z",
+    "isDisabled": false
+  },
+  {
+    "currency": "GBP",
+    "flag": "🇬🇧",
+    "name": "British Pound",
+    "buyRate": 0.78,
+    "sellRate": 0.8,
+    "lastUpdated": "2024-01-09T00:00:00.000Z",
+    "isDisabled": false
+  },
+  {
+    "currency": "JPY",
+    "flag": "🇯🇵",
+    "name": "Japanese Yen",
+    "buyRate": 148.5,
+    "sellRate": 151,
+    "lastUpdated": "2024-01-09T00:00:00.000Z",
+    "isDisabled": false
+  },
+  {
+    "currency": "AUD",
+    "flag": "🇦🇺",
+    "name": "Australian Dollar",
+    "buyRate": 1.52,
+    "sellRate": 1.55,
+    "lastUpdated": "2024-01-09T00:00:00.000Z",
+    "isDisabled": false
+  },
+  {
+    "currency": "CAD",
+    "flag": "🇨🇦",
+    "name": "Canadian Dollar",
+    "buyRate": 1.34,
+    "sellRate": 1.37,
+    "lastUpdated": "2024-01-09T00:00:00.000Z",
+    "isDisabled": false
+  },
+  {
+    "currency": "CHF",
+    "flag": "🇨🇭",
+    "name": "Swiss Franc",
+    "buyRate": 0.87,
+    "sellRate": 0.89,
+    "lastUpdated": "2024-01-09T00:00:00.000Z",
+    "isDisabled": false
+  },
+  {
+    "currency": "CNY",
+    "flag": "🇨🇳",
+    "name": "Chinese Yuan",
+    "buyRate": 7.15,
+    "sellRate": 7.25,
+    "lastUpdated": "2024-01-09T00:00:00.000Z",
+    "isDisabled": false
+  },
+  {
+    "currency": "SEK",
+    "flag": "🇸🇪",
+    "name": "Swedish Krona",
+    "buyRate": 10.45,
+    "sellRate": 10.65,
+    "lastUpdated": "2024-01-09T00:00:00.000Z",
+    "isDisabled": false
+  },
+  {
+    "currency": "NOK",
+    "flag": "🇳🇴",
+    "name": "Norwegian Krone",
+    "buyRate": 10.55,
+    "sellRate": 10.75,
+    "lastUpdated": "2024-01-09T00:00:00.000Z",
+    "isDisabled": false
+  },
+  {
+    "currency": "TRY",
+    "flag": "🇹🇷",
+    "name": "Turkish Lira",
+    "buyRate": 33.5,
+    "sellRate": 34.2,
+    "lastUpdated": "2024-01-09T00:00:00.000Z",
+    "isDisabled": false
+  },
+  {
+    "currency": "AED",
+    "flag": "🇦🇪",
+    "name": "UAE Dirham",
+    "buyRate": 3.65,
+    "sellRate": 3.7,
+    "lastUpdated": "2024-01-09T00:00:00.000Z",
+    "isDisabled": false
+  },
+  {
+    "currency": "PLN",
+    "flag": "🇵🇱",
+    "name": "Polish Zloty",
+    "buyRate": 3.95,
+    "sellRate": 4.05,
+    "lastUpdated": "2024-01-09T00:00:00.000Z",
+    "isDisabled": false
+  },
+  {
+    "currency": "RON",
+    "flag": "🇷🇴",
+    "name": "Romanian Leu",
+    "buyRate": 4.55,
+    "sellRate": 4.65,
+    "lastUpdated": "2024-01-09T00:00:00.000Z",
+    "isDisabled": false
+  },
+  {
+    "currency": "HUF",
+    "flag": "🇭🇺",
+    "name": "Hungarian Forint",
+    "buyRate": 355,
+    "sellRate": 365,
+    "lastUpdated": "2024-01-09T00:00:00.000Z",
+    "isDisabled": false
+  },
+  {
+    "currency": "UAH",
+    "flag": "🇺🇦",
+    "name": "Ukrainian Hryvnia",
+    "buyRate": 38.5,
+    "sellRate": 39.5,
+    "lastUpdated": "2024-01-09T00:00:00.000Z",
+    "isDisabled": false
+  },
+  {
+    "currency": "THB",
+    "flag": "🇹🇭",
+    "name": "Thai Baht",
+    "buyRate": 35.5,
+    "sellRate": 36.5,
+    "lastUpdated": "2024-01-09T00:00:00.000Z",
+    "isDisabled": false
+  }
+]
