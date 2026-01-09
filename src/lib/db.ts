@@ -84,6 +84,22 @@ export async function getRates(): Promise<ExchangeRate[]> {
         .order('currency', { ascending: true });
       
       if (data && !error) {
+        // If Supabase is empty, seed it from local file
+        if (data.length === 0) {
+          try {
+            if (fs.existsSync(DATA_FILE)) {
+              const fileData = fs.readFileSync(DATA_FILE, 'utf-8');
+              const localRates = JSON.parse(fileData);
+              if (localRates.length > 0) {
+                console.log('Seeding Supabase with local rates...');
+                await saveRates(localRates);
+                return localRates;
+              }
+            }
+          } catch (seedError) {
+            console.error('Error seeding Supabase:', seedError);
+          }
+        }
         return data as ExchangeRate[];
       }
     } catch (e) {

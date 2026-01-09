@@ -11,6 +11,8 @@ export default function AdminDashboard() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [saving, setSaving] = useState(false);
+  const [storageMode, setStorageMode] = useState<'supabase' | 'file'>('file');
+  const [isVercel, setIsVercel] = useState(false);
   
   // Settings State
   const [newUsername, setNewUsername] = useState("");
@@ -125,8 +127,20 @@ export default function AdminDashboard() {
           <h1 className="text-3xl font-playfair font-bold text-[#111827]">
             Rate Management
           </h1>
-          <div className="text-sm text-[#6B7280]">
-            {saving ? "Saving..." : "All changes saved"}
+          <div className="flex flex-col items-end">
+            <div className="text-sm text-[#6B7280]">
+              {saving ? "Saving..." : "All changes saved"}
+            </div>
+            {storageMode === 'file' && isVercel && (
+              <div className="text-xs text-amber-600 font-bold mt-1 bg-amber-50 px-2 py-1 rounded border border-amber-200">
+                ⚠ Demo Mode (Changes won't persist on Vercel)
+              </div>
+            )}
+            {storageMode === 'supabase' && (
+              <div className="text-xs text-green-600 font-bold mt-1">
+                ✓ Database Connected
+              </div>
+            )}
           </div>
         </div>
 
