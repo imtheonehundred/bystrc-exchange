@@ -1,33 +1,59 @@
 {
   "Navigation": {
-    "home": "Home",
-    "branches": "Branches",
-    "information": "Information"
+    "home": "Accueil",
+    "branches": "Agences",
+    "information": "Informations",
+    "contact": "Contact"
   },
   "Hero": {
-    "title": "Premium Currency Exchange",
-    "subtitle": "Secure. Fast. Best Rates.",
-    "cta_rates": "View Rates",
-    "cta_branch": "Find Branch"
+    "title": "Change de Devises Premium",
+    "subtitle": "Sécurisé. Rapide. Meilleurs Taux.",
+    "cta_rates": "Voir les Taux",
+    "cta_branch": "Trouver une Agence"
   },
   "Rates": {
-    "title": "Live Exchange Rates",
-    "subtitle": "Best rates – No hidden fees. Real-time rates for major global currencies.",
-    "buy": "We Buy",
-    "sell": "We Sell",
-    "search": "Search currency..."
+    "title": "Taux de Change en Direct",
+    "subtitle": "Meilleurs taux – Pas de frais cachés. Taux en temps réel pour les principales devises mondiales.",
+    "buy": "Nous Achetons",
+    "sell": "Nous Vendons",
+    "search": "Rechercher une devise..."
   },
   "Features": {
+    "main_title": "Pourquoi Nous Choisir",
+    "main_subtitle": "L'Excellence à Chaque Transaction",
+    "main_desc": "Nous combinons technologie de pointe et service personnalisé.",
     "commission_title": "0% Commission",
-    "commission_desc": "No hidden fees on all transactions",
-    "rates_title": "Best Market Rates",
-    "rates_desc": "Guaranteed competitive exchange rates",
-    "security_title": "Trusted & Secure",
-    "security_desc": "Licensed and regulated financial institution",
-    "service_title": "Fast Service",
-    "service_desc": "Instant processing for all currencies"
+    "commission_desc": "Pas de frais cachés sur toutes les transactions",
+    "rates_title": "Meilleurs Taux du Marché",
+    "rates_desc": "Taux de change compétitifs garantis",
+    "security_title": "Fiable et Sécurisé",
+    "security_desc": "Institution financière agréée et réglementée",
+    "service_title": "Service Rapide",
+    "service_desc": "Traitement instantané pour toutes les devises"
+  },
+  "Information": {
+    "title": "Informations Client",
+    "subtitle": "Informations essentielles sur nos services, nos politiques et vos droits.",
+    "faq_title": "Foire Aux Questions",
+    "legal_title": "Juridique & Conformité",
+    "faq_1_title": "Comment devenir membre VIP ?",
+    "faq_1_desc": "Nous offrons actuellement les meilleurs taux à tous les clients sans inscription.",
+    "faq_2_title": "De quels documents ai-je besoin ?",
+    "faq_2_desc": "Pièce d'identité valide pour les transactions supérieures à 1 000 EUR.",
+    "faq_3_title": "Y a-t-il des frais cachés ?",
+    "faq_3_desc": "Non. Nous sommes transparents. 0% de commission sur tous les changes d'espèces.",
+    "faq_4_title": "Puis-je réserver des devises en ligne ?",
+    "faq_4_desc": "Oui, par téléphone ou en agence.",
+    "faq_5_title": "Politique de sécurité ?",
+    "faq_5_desc": "Protocoles de sécurité de niveau bancaire.",
+    "term_1_title": "Conditions d'Utilisation",
+    "term_1_desc": "En utilisant nos services, vous acceptez de respecter les lois.",
+    "term_2_title": "Politique de Confidentialité",
+    "term_2_desc": "Nous nous engageons à protéger vos données.",
+    "term_3_title": "Politique AML",
+    "term_3_desc": "Nous respectons strictement les normes AML et KYC."
   },
   "Footer": {
-    "rights": "All rights reserved."
+    "rights": "Tous droits réservés."
   }
 }

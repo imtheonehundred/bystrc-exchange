@@ -1,33 +1,59 @@
 {
   "Navigation": {
-    "home": "Home",
-    "branches": "Branches",
-    "information": "Information"
+    "home": "Ana Sayfa",
+    "branches": "Şubeler",
+    "information": "Bilgi",
+    "contact": "İletişim"
   },
   "Hero": {
-    "title": "Premium Currency Exchange",
-    "subtitle": "Secure. Fast. Best Rates.",
-    "cta_rates": "View Rates",
-    "cta_branch": "Find Branch"
+    "title": "Premium Döviz Alım Satım",
+    "subtitle": "Güvenli. Hızlı. En İyi Kurlar.",
+    "cta_rates": "Kurları Gör",
+    "cta_branch": "Şube Bul"
   },
   "Rates": {
-    "title": "Live Exchange Rates",
-    "subtitle": "Best rates – No hidden fees. Real-time rates for major global currencies.",
-    "buy": "We Buy",
-    "sell": "We Sell",
-    "search": "Search currency..."
+    "title": "Canlı Döviz Kurları",
+    "subtitle": "En iyi kurlar – Gizli ücret yok. Başlıca dünya para birimleri için gerçek zamanlı kurlar.",
+    "buy": "Alış",
+    "sell": "Satış",
+    "search": "Para birimi ara..."
   },
   "Features": {
-    "commission_title": "0% Commission",
-    "commission_desc": "No hidden fees on all transactions",
-    "rates_title": "Best Market Rates",
-    "rates_desc": "Guaranteed competitive exchange rates",
-    "security_title": "Trusted & Secure",
-    "security_desc": "Licensed and regulated financial institution",
-    "service_title": "Fast Service",
-    "service_desc": "Instant processing for all currencies"
+    "main_title": "Neden Bizi Seçmelisiniz",
+    "main_subtitle": "Her İşlemde Mükemmellik",
+    "main_desc": "Son teknolojiyi kişiselleştirilmiş hizmetle birleştiriyoruz.",
+    "commission_title": "%0 Komisyon",
+    "commission_desc": "Tüm işlemlerde gizli ücret yok",
+    "rates_title": "En İyi Piyasa Kurları",
+    "rates_desc": "Garantili rekabetçi döviz kurları",
+    "security_title": "Güvenilir & Güvenli",
+    "security_desc": "Lisanslı ve denetlenen finansal kurum",
+    "service_title": "Hızlı Hizmet",
+    "service_desc": "Tüm para birimleri için anında işlem"
+  },
+  "Information": {
+    "title": "Müşteri Bilgileri",
+    "subtitle": "Hizmetlerimiz, politikalarımız ve haklarınız hakkında temel bilgiler.",
+    "faq_title": "Sıkça Sorulan Sorular",
+    "legal_title": "Yasal & Uyumluluk",
+    "faq_1_title": "Nasıl VIP üye olurum?",
+    "faq_1_desc": "Şu anda kayıt olmadan tüm müşterilere en iyi kurları sunuyoruz.",
+    "faq_2_title": "Hangi belgelere ihtiyacım var?",
+    "faq_2_desc": "1.000 EUR üzeri işlemler için geçerli kimlik.",
+    "faq_3_title": "Gizli ücretler var mı?",
+    "faq_3_desc": "Hayır. Şeffafız. Tüm nakit değişimlerinde %0 komisyon.",
+    "faq_4_title": "Online döviz ayırtabilir miyim?",
+    "faq_4_desc": "Evet, telefonla veya şubede.",
+    "faq_5_title": "Güvenlik politikası?",
+    "faq_5_desc": "Banka düzeyinde güvenlik protokolleri.",
+    "term_1_title": "Hizmet Şartları",
+    "term_1_desc": "Hizmetlerimizi kullanarak yasalara uymayı kabul edersiniz.",
+    "term_2_title": "Gizlilik Politikası",
+    "term_2_desc": "Verilerinizi korumayı taahhüt ediyoruz.",
+    "term_3_title": "AML Politikası",
+    "term_3_desc": "AML ve KYC standartlarına sıkı sıkıya bağlıyız."
   },
   "Footer": {
-    "rights": "All rights reserved."
+    "rights": "Tüm hakları saklıdır."
   }
 }

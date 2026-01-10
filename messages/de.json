@@ -1,33 +1,59 @@
 {
   "Navigation": {
-    "home": "Home",
-    "branches": "Branches",
-    "information": "Information"
+    "home": "Startseite",
+    "branches": "Filialen",
+    "information": "Informationen",
+    "contact": "Kontakt"
   },
   "Hero": {
-    "title": "Premium Currency Exchange",
-    "subtitle": "Secure. Fast. Best Rates.",
-    "cta_rates": "View Rates",
-    "cta_branch": "Find Branch"
+    "title": "Premium Geldwechsel",
+    "subtitle": "Sicher. Schnell. Beste Kurse.",
+    "cta_rates": "Kurse Ansehen",
+    "cta_branch": "Filiale Finden"
   },
   "Rates": {
-    "title": "Live Exchange Rates",
-    "subtitle": "Best rates – No hidden fees. Real-time rates for major global currencies.",
-    "buy": "We Buy",
-    "sell": "We Sell",
-    "search": "Search currency..."
+    "title": "Aktuelle Wechselkurse",
+    "subtitle": "Beste Kurse – Keine versteckten Gebühren. Echtzeitkurse für wichtige Weltwährungen.",
+    "buy": "Wir Kaufen",
+    "sell": "Wir Verkaufen",
+    "search": "Währung suchen..."
   },
   "Features": {
-    "commission_title": "0% Commission",
-    "commission_desc": "No hidden fees on all transactions",
-    "rates_title": "Best Market Rates",
-    "rates_desc": "Guaranteed competitive exchange rates",
-    "security_title": "Trusted & Secure",
-    "security_desc": "Licensed and regulated financial institution",
-    "service_title": "Fast Service",
-    "service_desc": "Instant processing for all currencies"
+    "main_title": "Warum Uns Wählen",
+    "main_subtitle": "Exzellenz bei jeder Transaktion",
+    "main_desc": "Wir verbinden moderne Technologie mit persönlichem Service.",
+    "commission_title": "0% Provision",
+    "commission_desc": "Keine versteckten Gebühren bei allen Transaktionen",
+    "rates_title": "Beste Marktkurse",
+    "rates_desc": "Garantiert wettbewerbsfähige Wechselkurse",
+    "security_title": "Vertrauenswürdig & Sicher",
+    "security_desc": "Lizenzierte und regulierte Finanzinstitution",
+    "service_title": "Schneller Service",
+    "service_desc": "Sofortige Bearbeitung aller Währungen"
+  },
+  "Information": {
+    "title": "Kundeninformationen",
+    "subtitle": "Wichtige Informationen über unsere Dienstleistungen, Richtlinien und Ihre Rechte.",
+    "faq_title": "Häufig Gestellte Fragen",
+    "legal_title": "Rechtliches & Compliance",
+    "faq_1_title": "Wie werde ich VIP-Mitglied?",
+    "faq_1_desc": "Wir bieten derzeit allen Kunden die besten Kurse ohne Registrierung.",
+    "faq_2_title": "Welche Dokumente benötige ich?",
+    "faq_2_desc": "Gültiger Ausweis für Transaktionen über 1.000 EUR.",
+    "faq_3_title": "Gibt es versteckte Gebühren?",
+    "faq_3_desc": "Nein. Wir sind transparent. 0% Provision auf alle Bargeldwechsel.",
+    "faq_4_title": "Kann ich Währung online reservieren?",
+    "faq_4_desc": "Ja, telefonisch oder in der Filiale.",
+    "faq_5_title": "Sicherheitsrichtlinie?",
+    "faq_5_desc": "Sicherheitsprotokolle auf Bankenniveau.",
+    "term_1_title": "Nutzungsbedingungen",
+    "term_1_desc": "Durch die Nutzung unserer Dienste stimmen Sie zu, die Gesetze einzuhalten.",
+    "term_2_title": "Datenschutzrichtlinie",
+    "term_2_desc": "Wir verpflichten uns zum Schutz Ihrer Daten.",
+    "term_3_title": "AML-Richtlinie",
+    "term_3_desc": "Wir halten uns streng an AML- und KYC-Standards."
   },
   "Footer": {
-    "rights": "All rights reserved."
+    "rights": "Alle Rechte vorbehalten."
   }
 }

@@ -79,7 +79,14 @@ export function ExchangeRates() {
                     <div className="flex items-center gap-3">
                       <span className="text-4xl">{rate.flag}</span>
                       <div>
-                        <h3 className="font-bold text-[#111827] text-lg">{rate.currency}</h3>
+                        <div className="flex items-baseline gap-1">
+                          <h3 className="font-bold text-[#111827] text-lg">{rate.currency}</h3>
+                          {['JPY', 'HUF'].includes(rate.currency) && (
+                            <span className="text-xs font-medium text-[#6B7280] bg-gray-100 px-1.5 py-0.5 rounded-full">
+                              100=
+                            </span>
+                          )}
+                        </div>
                         <p className="text-[#6B7280] text-xs">{rate.name}</p>
                       </div>
                     </div>

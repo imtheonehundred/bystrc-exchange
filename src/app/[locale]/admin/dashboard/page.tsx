@@ -101,12 +101,17 @@ export default function AdminDashboard() {
       return;
     }
 
-    const numValue = parseFloat(value);
+    // Replace comma with dot for decimal handling
+    const normalizedValue = value.replace(',', '.');
+    const numValue = parseFloat(normalizedValue);
+    
     // Only update if it's a valid number
     if (!isNaN(numValue)) {
       const newRates = rates.map(r => 
         r.currency === currency ? { ...r, [field]: numValue } : r
       );
+      // Optimistic UI update
+      setRates(newRates);
       handleUpdate(newRates);
     }
   };
